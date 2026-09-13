@@ -1,0 +1,7 @@
+interface:
+  display_name: "美国留子生存副驾驶"
+  short_description: "帮中国留学生在美国查、选、算、避坑并完成下一步"
+  brand_color: "#2563EB"
+  default_prompt: "Use $liuzi-skill 帮我解决一个在美国留学生活中遇到的具体问题。"
+policy:
+  allow_implicit_invocation: true
