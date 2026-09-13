@@ -1,0 +1,32 @@
+name: 新场景或 Eval
+description: 提交真实问题、边界案例或回归测试
+title: "[Scenario] "
+labels: ["enhancement", "eval"]
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 真实问题
+      description: 写成用户会实际发送的一句话。
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: 会改变结论的约束
+  - type: textarea
+    id: expected
+    attributes:
+      label: 必须做到与必须避免
+      placeholder: |
+        必须：
+        - ...
+        避免：
+        - ...
+    validations:
+      required: true
+  - type: input
+    id: official
+    attributes:
+      label: 直接官方来源（如适用）
+

@@ -1,0 +1,19 @@
+{
+  "options": [
+    {
+      "name": "Apartment A",
+      "periods": 12,
+      "recurring": {"rent": 1200, "fees": 80, "utilities": 120},
+      "one_time": {"application": 50, "move_in": 200},
+      "credits": {"concession": 1200}
+    },
+    {
+      "name": "Apartment B",
+      "periods": 12,
+      "recurring": {"rent": 1275, "fees": 25, "utilities": 100},
+      "one_time": {"application": 75},
+      "credits": {}
+    }
+  ]
+}
+

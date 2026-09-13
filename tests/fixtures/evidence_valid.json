@@ -1,0 +1,35 @@
+{
+  "checked_at": "2026-09-13",
+  "claims": [
+    {
+      "id": "eligibility",
+      "claim": "The official application page lists the applicant's document path.",
+      "risk": "high",
+      "status": "official_confirmed",
+      "sources": [
+        {
+          "url": "https://example.gov/official-rule",
+          "publisher": "Example Agency",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "experience",
+      "claim": "Recent users repeatedly mention long waits.",
+      "risk": "low",
+      "status": "third_party_supported",
+      "sources": [
+        {
+          "url": "https://example.com/reviews",
+          "publisher": "Example Reviews",
+          "type": "community"
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {"name": "Option A", "claim_refs": ["eligibility", "experience"]}
+  ]
+}
+

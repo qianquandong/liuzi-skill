@@ -1,0 +1,16 @@
+{
+  "name": "liuzi-skill",
+  "version": "3.2.0",
+  "private": true,
+  "description": "Evidence-gated action playbooks for Chinese students and young newcomers in the United States.",
+  "license": "MIT",
+  "repository": "github:qianquandong/liuzi-skill",
+  "scripts": {
+    "test": "python3 -m unittest discover -s tests -v",
+    "check:links": "python3 scripts/check_source_links.py .",
+    "check:evals": "python3 -m unittest tests.test_structure -v",
+    "validate": "npm run test && npm run check:links"
+  },
+  "keywords": ["agent-skills", "international-students", "united-states", "chinese"]
+}
+

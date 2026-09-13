@@ -1,0 +1,37 @@
+name: 回答或规则问题
+description: 报告错误结论、失效链接、证据不足或路由问题
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: prompt
+    attributes:
+      label: 原始问题
+      description: 请删除 SSN、证件号、账户号、精确住址等敏感信息。
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: 出问题的回答或行为
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望行为
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: 可核验来源
+      description: 如涉及规则变化，请贴直接官方页面。
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 隐私确认
+      options:
+        - label: 我已删除个人敏感信息
+          required: true
+

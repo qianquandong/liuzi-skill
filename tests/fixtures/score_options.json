@@ -1,0 +1,27 @@
+{
+  "weights": {"price": 30, "convenience": 25, "risk": 25, "quality": 20},
+  "options": [
+    {
+      "name": "Balanced",
+      "hard_constraints": {"budget": true, "eligible": true},
+      "evidence_status": "official_confirmed",
+      "risk": "high",
+      "scores": {"price": 8, "convenience": 8, "risk": 9, "quality": 8}
+    },
+    {
+      "name": "Cheap but unverified",
+      "hard_constraints": {"budget": true, "eligible": true},
+      "evidence_status": "unverified",
+      "risk": "high",
+      "scores": {"price": 10, "convenience": 7, "risk": 3, "quality": 5}
+    },
+    {
+      "name": "Over budget",
+      "hard_constraints": {"budget": false, "eligible": true},
+      "evidence_status": "official_confirmed",
+      "risk": "high",
+      "scores": {"price": 6, "convenience": 10, "risk": 10, "quality": 10}
+    }
+  ]
+}
+

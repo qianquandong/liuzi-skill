@@ -1,0 +1,29 @@
+{
+  "name": "liuzi-skill",
+  "version": "3.2.0",
+  "description": "Evidence-gated U.S. life decisions for Chinese international students",
+  "author": {
+    "name": "Jack Qian"
+  },
+  "homepage": "https://github.com/qianquandong/liuzi-skill",
+  "repository": "https://github.com/qianquandong/liuzi-skill",
+  "license": "MIT",
+  "keywords": ["skills", "international-students", "united-states", "chinese"],
+  "skills": "./",
+  "hooks": {},
+  "interface": {
+    "displayName": "美国留子生存副驾驶",
+    "shortDescription": "查证资格、计算总成本、排雷并给出可执行下一步",
+    "longDescription": "面向中国留学生和初到美国年轻人的证据驱动决策助手，覆盖租房、信用、买车、F-1/OPT、医疗等高频场景。",
+    "developerName": "Jack Qian",
+    "category": "Lifestyle",
+    "capabilities": ["Interactive", "Read"],
+    "defaultPrompt": [
+      "帮我解决一个在美国留学生活中遇到的具体问题。",
+      "帮我实时比较几个选项，并告诉我现在该做什么。"
+    ],
+    "websiteURL": "https://github.com/qianquandong/liuzi-skill",
+    "brandColor": "#2563EB"
+  }
+}
+

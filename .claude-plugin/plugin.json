@@ -1,0 +1,13 @@
+{
+  "name": "liuzi-skill",
+  "description": "中国留学生在美国的证据驱动型生活决策与执行助手",
+  "version": "3.2.0",
+  "author": {
+    "name": "Jack Qian"
+  },
+  "homepage": "https://github.com/qianquandong/liuzi-skill",
+  "repository": "https://github.com/qianquandong/liuzi-skill",
+  "license": "MIT",
+  "keywords": ["skills", "international-students", "united-states", "chinese"]
+}
+
