@@ -6,6 +6,11 @@
 
 **不是生活百科。是“我现在该怎么办？”执行器。**
 
+*Evidence-first AI copilot for housing, credit cards, cars, healthcare, F-1/OPT and everyday decisions.*
+
+给留子（留学美国的中国留学生）用的 AI Skill：租房、信用卡（无 SSN / ITIN）、买车、医疗、F-1 / OPT / STEM OPT 签证身份问题，每个决策先过 Evidence Gate。<br>
+An agent skill for Chinese international students in the US — apartment & lease hunting, credit cards with no SSN / ITIN, car buying, healthcare, F-1 / OPT / STEM OPT visa questions — with evidence-gated decision support. Works with Claude Code, Codex and other Agent Skills clients.
+
 [![Version](https://img.shields.io/badge/version-v3.2.0-111111)](./VERSION)
 [![CI](https://github.com/qianquandong/liuzi-skill/actions/workflows/ci.yml/badge.svg)](https://github.com/qianquandong/liuzi-skill/actions/workflows/ci.yml)
 [![skills.sh](https://skills.sh/b/qianquandong/liuzi-skill)](https://skills.sh/qianquandong/liuzi-skill)
@@ -13,6 +18,8 @@
 [![License](https://img.shields.io/badge/license-MIT-black)](./LICENSE)
 
 `实时查证` · `Evidence Gate` · `all-in 计算` · `硬约束淘汰` · `明确下一步`
+
+<sub>留子 · 留学美国 · 中国留学生 · Chinese students in the US · study in USA · international students · 租房 housing · 信用卡 credit cards · 买车 car buying · 医疗 healthcare · F-1 · OPT · 证据驱动 evidence-first · AI skill · Claude Code · Codex</sub>
 
 </div>
 
