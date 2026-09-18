@@ -37,7 +37,7 @@ class StructureTests(unittest.TestCase):
 
     def test_core_references_have_operational_sections(self) -> None:
         required = ("最少", "硬", "搜索顺序", "输出结构", "失败回退", "Eval 映射")
-        for name in ("money-credit.md", "housing.md", "immigration-school.md", "car.md", "healthcare.md"):
+        for name in ("money-credit.md", "housing.md", "immigration-school.md", "car.md", "healthcare.md", "ssn.md"):
             text = (ROOT / "references" / name).read_text(encoding="utf-8")
             for heading in required:
                 self.assertIn(heading, text, f"{name} missing {heading}")
