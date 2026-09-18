@@ -12,6 +12,7 @@
 | 回国机票、转机、行李 | `flights.md` | travel、immigration-school |
 | 生病、保险、账单 | `healthcare.md` | insurance、emergency |
 | CPT、OPT、兼职、1099、创业 | `immigration-school.md` | jobs、taxes |
+| 办 SSN、社安号、SSN 带什么材料、SSN 卡没到 | `ssn.md` | immigration-school、money-credit、taxes |
 | 找实习、network、面试 | `jobs.md` | community、immigration-school |
 | 饭店、奶茶、超市、外卖 | `food.md` | grocery-shopping、saving |
 | 华人群、活动、交朋友 | `community.md` | social-dating、90-day-plan |

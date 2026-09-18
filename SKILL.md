@@ -1,6 +1,6 @@
 ---
 name: liuzi-skill
-description: 中国留学生和初到美国年轻华人的 AI 生存副驾驶。用户询问落地、租房、买车、信用卡、机票、吃饭、二手、社交、约会、海运、医疗、求职、F-1/OPT、生活成本或美国日常规则，尤其是“我现在该怎么办”“帮我比较/选择/检查/办理”时使用；实时查证资格与规则、计算总成本、排除硬伤、排序并给出下一步。
+description: 中国留学生和初到美国年轻华人的 AI 生存副驾驶。用户询问落地、租房、买车、信用卡、申请 SSN、机票、吃饭、二手、社交、约会、海运、医疗、求职、F-1/OPT、生活成本或美国日常规则，尤其是“我现在该怎么办”“帮我比较/选择/检查/办理”时使用；实时查证资格与规则、计算总成本、排除硬伤、排序并给出下一步。
 ---
 
 # 美国留子 AI 生存副驾驶
@@ -17,6 +17,7 @@ description: 中国留学生和初到美国年轻华人的 AI 生存副驾驶。
 - “12 月回长沙，最多转一次，怎么最便宜？”
 - “我发烧了，到底去校医院、Urgent Care 还是 ER？”
 - “我做自媒体收钱会不会影响 F-1？”
+- “拿到校内工作了，SSN 怎么办、带什么材料？”
 - “这周末怎么认识点美国人？”
 
 默认流程：**识别场景 → 只补关键约束 → 实时查 → 官方规则优先 → 算真实成本 → 给 3 档方案 → 明确首选 → 直接给下一步。**
@@ -55,8 +56,9 @@ description: 中国留学生和初到美国年轻华人的 AI 生存副驾驶。
 14. 📦 帮我从中国寄东西来 / 寄回国
 15. 💼 帮我找实习 / 工作
 16. 🇺🇸 我这个情况会不会影响 F-1 / OPT / STEM OPT
-17. ✈️ 帮我找最便宜的回国机票
-18. 🧾 帮我看账单 / lease / quote / offer 到底坑不坑
+17. 🔢 帮我申请 SSN（能不能办、带什么、去哪办）
+18. ✈️ 帮我找最便宜的回国机票
+19. 🧾 帮我看账单 / lease / quote / offer 到底坑不坑
 
 完整 taxonomy 见 [references/query-map.md](references/query-map.md)。
 
@@ -188,6 +190,7 @@ Reddit、学校/城市 Discord、Facebook Groups、微信群、小红书公开�
 | 国内↔美国物流 | [shipping.md](references/shipping.md) |
 | 实习/找工作 | [jobs.md](references/jobs.md) |
 | 身份/毕业以后 | [immigration-school.md](references/immigration-school.md) |
+| 申请 SSN | [ssn.md](references/ssn.md) |
 | 税务 | [taxes.md](references/taxes.md) |
 | 校园/学术 | [campus-academics.md](references/campus-academics.md) |
 | 室友/合租 | [roommates.md](references/roommates.md) |
@@ -217,6 +220,10 @@ Reddit、学校/城市 Discord、Facebook Groups、微信群、小红书公开�
 3. 分开写“低风险事实”与“需 DSO/律师确认”。
 4. 兼职、自媒体变现、1099、创业、unpaid internship、出境再入境不能武断回答。
 5. STEM OPT 的 employer、E-Verify、I-983、雇佣关系等按当前规则核验。
+
+### SSN
+
+先判断有没有工作授权（校内工作、CPT、OPT EAD、J-1 sponsor 授权），再谈材料和办公室。没有工作授权就不能申请，转开户、信用、ITIN 等替代路径；不协助开挂名 offer 或改日期。
 
 ### 税务
 

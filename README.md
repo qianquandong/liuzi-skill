@@ -8,10 +8,10 @@
 
 *Evidence-first AI copilot for housing, credit cards, cars, healthcare, F-1/OPT and everyday decisions.*
 
-给留子（留学美国的中国留学生）用的 AI Skill：租房、信用卡（无 SSN / ITIN）、买车、医疗、F-1 / OPT / STEM OPT 签证身份问题，每个决策先过 Evidence Gate。<br>
-An agent skill for Chinese international students in the US — apartment & lease hunting, credit cards with no SSN / ITIN, car buying, healthcare, F-1 / OPT / STEM OPT visa questions — with evidence-gated decision support. Works with Claude Code, Codex and other Agent Skills clients.
+给留子（留学美国的中国留学生）用的 AI Skill：租房、信用卡（无 SSN / ITIN）、申请 SSN、买车、医疗、F-1 / OPT / STEM OPT 签证身份问题，每个决策先过 Evidence Gate。<br>
+An agent skill for Chinese international students in the US — apartment & lease hunting, credit cards with no SSN / ITIN, applying for an SSN, car buying, healthcare, F-1 / OPT / STEM OPT visa questions — with evidence-gated decision support. Works with Claude Code, Codex and other Agent Skills clients.
 
-[![Version](https://img.shields.io/badge/version-v3.2.0-111111)](./VERSION)
+[![Version](https://img.shields.io/badge/version-v3.3.0-111111)](./VERSION)
 [![CI](https://github.com/qianquandong/liuzi-skill/actions/workflows/ci.yml/badge.svg)](https://github.com/qianquandong/liuzi-skill/actions/workflows/ci.yml)
 [![skills.sh](https://skills.sh/b/qianquandong/liuzi-skill)](https://skills.sh/qianquandong/liuzi-skill)
 [![Evals](https://img.shields.io/badge/evals-30-2563eb)](./evals/evals.json)
@@ -92,6 +92,7 @@ An agent skill for Chinese international students in the US — apartment & leas
 | 💳 信用 | 年龄/SSN/ITIN/信用档案 → 官方资格 → 获批路径 → 是否值得 → 单次申请 gate |
 | 🏠 租房 | 实时库存 → no-credit 路径 → all-in → 高峰通勤 → lease → 付款/签约 gate |
 | 🇺🇸 F-1/OPT | 身份事实 → 活动事实 → 当前官方依据 → 时间线 → DSO/律师升级 |
+| 🔢 SSN | 工作授权 → 30 天/EAD 生效窗口 → DSO 与雇主信 → 在线开始 + 45 天内到办公室 → 等卡 |
 | 🚗 买车 | VIN/title/recall → PPI → 保险 → itemized OTD → 持有期 all-in |
 | 🏥 医疗 | 紧急分流 → network → 路径与费用 → EOB/bill audit |
 | ✈️ 机票 | 日期网格 → 行李/地面交通 → 联程 vs self-transfer → all-in |
@@ -140,7 +141,7 @@ GitHub clone 命令不会自动把 Skill 加到 ChatGPT Work。请在产品内�
 
 ## 可测试，不靠口号
 
-仓库自带 30 条真实回归场景，覆盖无 SSN 信用卡、under-21 收入、no-browser、官方/社区冲突、租房诈骗、F-1 变现、OPT 未授权开始、dealer 月供陷阱、医疗急症、海关低报等。
+仓库自带 34 条真实回归场景，覆盖无 SSN 信用卡、留学生申请 SSN、under-21 收入、no-browser、官方/社区冲突、租房诈骗、F-1 变现、OPT 未授权开始、dealer 月供陷阱、医疗急症、海关低报等。
 
 ```bash
 python3 -m unittest discover -s tests -v
